@@ -1,0 +1,18 @@
+[package]
+name = "ecml"
+version = "0.1.0"
+authors = ["mitchmindtree <mitchell.nordine@gmail.com>"]
+
+[dependencies]
+crossbeam = "0.4"
+fnv = "1"
+num_cpus = "1"
+petgraph = "0.4"
+rand = "0.5"
+scoped_threadpool = "0.1"
+
+[dev-dependencies]
+walkdir = "2"
+
+[profile.release]
+debug = true
