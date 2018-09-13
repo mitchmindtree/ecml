@@ -1,3 +1,3 @@
-# gp
+# ecml
 
-A crate designed to assist with genetic programming.
+A crate for working with Evolutionary Computing and Machine Learning in Rust.
